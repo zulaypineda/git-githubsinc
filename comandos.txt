@@ -1,0 +1,19 @@
+COMANDOS GIT
+
+configuración inicial
+git config --> --global user.email "correo"--> registra tu correo
+           --> --global user.name "nombre" --> registra tu nombre
+           --> --global -e --> muestra tu configuración en el editor de texto
+           --> --global -l --> muestra tu configuración en consola
+           --> --list --> muestra tu configuración en consola
+
+
+git init --> inicia un repositorio
+git status --> muestra los cambios que no están en el control de versiones
+           --> muestra la rama en la q estamos trabajando
+           --> muestra los commits que se han registrado
+git commit --> confirmación de cambio
+           --> -m --> da un msj al commit
+git add --> agrega los archivos que fueron modificados
+        --> --all --> todos los archivos modificados
+git clone url --> clona un repositorio git
