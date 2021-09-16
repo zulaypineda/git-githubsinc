@@ -38,5 +38,12 @@ git branch --> muestra las ramas que tenemos
 
 git merge nombrerama --> mezcla la rama con la rama en la que estes
 
+git push origin master --> sube a git los cambios en los archivos compartidos
+
+git pull origin master --> actualiza los archivos compartidos
+
+pull request (solo desde github) --> modifica los archivos sin ser colaborador del proyecto
+
+merge pull request (solo desde github) --> agrega la informacion modificada en el pull request
 
 git clone url --> clona un repositorio git
