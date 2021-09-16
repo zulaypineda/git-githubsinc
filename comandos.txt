@@ -1,19 +1,42 @@
 COMANDOS GIT
 
-configuración inicial
+configuracion inicial
 git config --> --global user.email "correo"--> registra tu correo
            --> --global user.name "nombre" --> registra tu nombre
-           --> --global -e --> muestra tu configuración en el editor de texto
-           --> --global -l --> muestra tu configuración en consola
-           --> --list --> muestra tu configuración en consola
+           --> --global -e --> muestra tu configuracion en el editor de texto
+           --> --global -l --> muestra tu configuracion en consola
+           --> --list --> muestra tu configuracion en consola
 
 
-git init --> inicia un repositorio
-git status --> muestra los cambios que no están en el control de versiones
+git init --> inicia un repositorio local
+
+git status --> muestra los cambios de los archivos 
+           --> (si fueron agregados a git, si se les hizo commit, etc)
            --> muestra la rama en la q estamos trabajando
-           --> muestra los commits que se han registrado
-git commit --> confirmación de cambio
+
+git add --> agrega el archivo al stage
+        --> --all --> todos los archivos
+        --> . --> todos los archivos
+
+git commit --> confirmacion de cambio
            --> -m --> da un msj al commit
-git add --> agrega los archivos que fueron modificados
-        --> --all --> todos los archivos modificados
+
+git diff --> muestra la modificaciÃ³n que tuvo un archivo
+
+git reset HEAD nombrearchivo.ext --> quita el archivo del stage
+
+git checkout --> deshace el commit
+             --> . --> deshace el commit y regresa al estado anterior
+             --> hashcommit (numeros y letras que identifican el commit) --> te regresa a ese commit
+             --> nombrerama --> te lleva a la rama que necesites
+
+git log --> muestra los cambios que se han realizado
+
+git branch --> muestra las ramas que tenemos
+           --> nombrerama --> crea una nueva rama
+           --> -d nombrerama --> elimina la rama
+
+git merge nombrerama --> mezcla la rama con la rama en la que estes
+
+
 git clone url --> clona un repositorio git
